@@ -1,0 +1,122 @@
+@font-face {
+  font-family: sans pro;
+  src: url(./Assets/fonts/static/SourceSans3-Bold.ttf);
+}
+
+* {
+  font-family: sans pro;
+}
+
+.navbar0 {
+  background-color: white !important;
+}
+
+.login {
+  width: 50%;
+  margin-left: 20px;
+  background-color: white;
+  color: #fdbc30;
+  border: none;
+  box-shadow: rgba(223, 233, 83, 0.25) 0px 13px 27px -5px,
+    #fdbc30 0px 8px 16px -8px;
+}
+.login:hover {
+  background-color: #fdbc30;
+  color: white;
+}
+
+.searchbar {
+  position: relative;
+}
+
+.searchglass {
+  position: absolute;
+  margin-top: 10px;
+  color: #fdbc30;
+}
+
+.writen {
+  padding-left: 30px;
+}
+
+.glass {
+  color: #fdbc30;
+}
+
+.header {
+  height: 500px;
+  width: 100%;
+  background-color: #fdbc30;
+}
+
+.column0 {
+  height: 100%;
+  align-items: center;
+}
+
+.rect {
+  background-color: white;
+  height: 30%;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.colo1 {
+  height: 500px;
+  align-items: center;
+}
+
+.content {
+  position: relative;
+}
+.pin {
+  position: absolute;
+  margin: 10px;
+}
+
+.btn0 {
+  color: white;
+  background: orange;
+}
+
+.btn0:hover {
+  background-color: white;
+  color: orange;
+}
+
+.bimg {
+  position: relative;
+}
+
+.hello {
+  position: absolute;
+}
+
+.img0 {
+  position: relative;
+  height: 500px;
+}
+
+.hello1 {
+  position: absolute;
+  bottom: 0px;
+}
+
+.deal {
+  position: absolute;
+  bottom: 0;
+}
+
+.flex-center {
+  justify-content: space-between;
+  align-items: center;
+  line-height: 5px;
+}
+.badge {
+  background-color: orange;
+}
+
+.cards {
+  justify-content: center;
+}
