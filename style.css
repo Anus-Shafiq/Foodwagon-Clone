@@ -120,3 +120,12 @@
 .cards {
   justify-content: center;
 }
+
+.card-border {
+  border: none;
+}
+
+.btn-danger {
+  background-color: #fdbc30 !important;
+  border: none !important;
+}
