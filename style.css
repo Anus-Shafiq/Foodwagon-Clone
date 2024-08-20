@@ -128,8 +128,66 @@
 .btn-danger {
   background-color: #fdbc30 !important;
   border: none !important;
+  &:hover {
+    background-color: white !important;
+    color: #fdbc30 !important ;
+  }
 }
 
 .bgc {
   background-color: orange;
+}
+
+.nav0 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg-holder {
+  background-image: url(./Assets/assets/images/cta-one-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hr-vertical {
+  border-left: 2px solid #cfcfcf;
+}
+
+.card-border2 {
+  border-radius: 35px;
+}
+
+.mt-md-8 {
+  margin-top: 7.5rem !important;
+}
+
+.bg-holder2 {
+  background-image: url(./Assets/assets/images/cta-two-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn-0 {
+  background-color: #f17228;
+  border-color: #f17228;
+  &:hover {
+    background-color: white;
+    color: #f17228 !important;
+  }
+}
+
+.anus {
+  text-decoration: none;
+  color: orange;
+}
+
+.clr {
+  background-color: #616161 !important;
+  border: none;
+  color: #cfcfcf !important;
+}
+.link-body :hover {
+  color: white;
 }

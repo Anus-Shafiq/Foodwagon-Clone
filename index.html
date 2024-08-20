@@ -8,7 +8,7 @@
     <title>Food Wagon</title>
   </head>
   <body>
-    <nav class="navbar bg-body-tertiary navbar0">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar0">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img
@@ -18,29 +18,42 @@
             height="30  "
             class="d-inline-block align-text-top"
           />
-          foodWAGON
-        </a>
+          foodWAGON</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav0" id="navbarNav">
+          <span class="navbar-text">
+            Deliver to: <i class="fa-solid fa-location-dot"></i> Current
+            Location Muhammadpur Bus Stand,Dhaka
+          </span>
 
-        <span class="navbar-text">
-          Deliver to: <i class="fa-solid fa-location-dot"></i> Current Location
-          Muhammadpur Bus Stand,Dhaka
-        </span>
-        <form class="d-flex" role="search">
-          <div class="row searchbar">
-            <span>
-              <i class="fa-solid fa-magnifying-glass searchglass glass"></i
-            ></span>
-            <input
-              class="form-control me-2 writen"
-              type="search"
-              placeholder="Search Food"
-              aria-label="Search"
-            />
-          </div>
-          <button class="btn btn-outline-success login" type="submit">
-            <span> <i class="fa-solid fa-user"></i></span> Login
-          </button>
-        </form>
+          <form class="d-flex" role="search">
+            <div class="row searchbar">
+              <span>
+                <i class="fa-solid fa-magnifying-glass searchglass glass"></i
+              ></span>
+              <input
+                class="form-control me-2 writen"
+                type="search"
+                placeholder="Search Food"
+                aria-label="Search"
+              />
+            </div>
+            <button class="btn btn-outline-success login" type="submit">
+              <span> <i class="fa-solid fa-user"></i></span> Login
+            </button>
+          </form>
+        </div>
       </div>
     </nav>
 
@@ -84,7 +97,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 d-none d-sm-block d-sm-none d-md-block">
               <div class="bimg img0">
                 <img
                   class="bowl img-fluid hello1"
@@ -102,7 +115,7 @@
         <div class="row cards align-items-center justify-content-center">
           <!-- card-start -->
           <div class="gy-5 col-md-6 col-sm-12 col-lg-4 col-xl-3">
-            <div class="card card-border" style="width: 18rem">
+            <div class="card card-border">
               <div class="position-relative">
                 <img
                   src="./Assets/assets/images/card-1.png"
@@ -134,7 +147,7 @@
 
           <!-- card-start -->
           <div class="gy-5 col-md-6 col-sm-12 col-lg-4 col-xl-3">
-            <div class="card card-border" style="width: 18rem">
+            <div class="card card-border">
               <div class="position-relative">
                 <img
                   src="./Assets/assets/images/card-2.png"
@@ -166,7 +179,7 @@
 
           <!-- card-start -->
           <div class="gy-5 col-md-6 col-sm-12 col-lg-4 col-xl-3">
-            <div class="card card-border" style="width: 18rem">
+            <div class="card card-border">
               <div class="position-relative">
                 <img
                   src="./Assets/assets/images/card-3.png"
@@ -198,7 +211,7 @@
 
           <!-- card-start -->
           <div class="gy-5 col-md-6 col-sm-12 col-lg-4 col-xl-3">
-            <div class="card card-border" style="width: 18rem">
+            <div class="card card-border">
               <div class="position-relative">
                 <img
                   src="./Assets/assets/images/card-4.png"
@@ -719,7 +732,7 @@
           </div>
           <!-- End  -->
           <div class="col-12 d-flex justify-content-center mt-5">
-            <a href="#" role="button" class="btn btn-lg btn-warning text-white"
+            <a href="#" role="button" class="btn btn-lg btn-danger text-white"
               >View All ></a
             >
           </div>
@@ -727,6 +740,546 @@
       </div>
     </section>
 
+    <section class="py-5">
+      <div class="container">
+        <div class="row flex-center">
+          <div class="col-lg-7">
+            <h5 class="">Search by Food</h5>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a class="btn" href="#">View All ></a>
+          </div>
+        </div>
+
+        <div class="row align-items-center mt-3">
+          <!-- card-start  -->
+          <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+            <div class="card rounded-circle card-border">
+              <img
+                class="img-fluid rounded-circle"
+                src="./Assets/assets/images/item-1.png"
+                alt="pizza"
+              />
+              <div class="card-body ps-0">
+                <h5 class="text-center mb-2">Burger</h5>
+              </div>
+            </div>
+          </div>
+          <!-- card-end  -->
+
+          <!-- card-start  -->
+          <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+            <div class="card rounded-circle card-border">
+              <img
+                class="img-fluid rounded-circle"
+                src="./Assets/assets/images/item-2.png"
+                alt="pizza"
+              />
+              <div class="card-body ps-0">
+                <h5 class="text-center mb-2">Pancake</h5>
+              </div>
+            </div>
+          </div>
+          <!-- card-end  -->
+
+          <!-- card-start  -->
+          <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+            <div class="card rounded-circle card-border">
+              <img
+                class="img-fluid rounded-circle"
+                src="./Assets/assets/images/item-3.png"
+                alt="pizza"
+              />
+              <div class="card-body ps-0">
+                <h5 class="text-center mb-2">Cookie Cake</h5>
+              </div>
+            </div>
+          </div>
+          <!-- card-end  -->
+
+          <!-- card-start  -->
+          <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+            <div class="card rounded-circle card-border">
+              <img
+                class="img-fluid rounded-circle"
+                src="./Assets/assets/images/item-4.png"
+                alt="pizza"
+              />
+              <div class="card-body ps-0">
+                <h5 class="text-center mb-2">Sandwich</h5>
+              </div>
+            </div>
+          </div>
+          <!-- card-end  -->
+
+          <!-- card-start  -->
+          <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+            <div class="card rounded-circle card-border">
+              <img
+                class="img-fluid rounded-circle"
+                src="./Assets/assets/images/item-5.png"
+                alt="pizza"
+              />
+              <div class="card-body ps-0">
+                <h5 class="text-center mb-2">Kunafa</h5>
+              </div>
+            </div>
+          </div>
+          <!-- card-end  -->
+
+          <!-- card-start  -->
+          <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+            <div class="card rounded-circle card-border">
+              <img
+                class="img-fluid rounded-circle"
+                src="./Assets/assets/images/item-2.png"
+                alt="pizza"
+              />
+              <div class="card-body ps-0">
+                <h5 class="text-center mb-2">Pancake</h5>
+              </div>
+            </div>
+          </div>
+          <!-- card-end  -->
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="bg-holder">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10">
+              <div class="card shadow-sm card-border2 mt-5">
+                <div class="card-body py-5">
+                  <div class="row justify-content-evenly">
+                    <div class="col-md-3">
+                      <div
+                        class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between"
+                      >
+                        <img
+                          src="./Assets/assets/images/discount.png"
+                          width="100"
+                          alt=""
+                        />
+                        <div class="d-flex d-md-block d-xl-flex flex-center">
+                          <h2 class="mb-0 fw-bolder">
+                            Daily
+                            <br class="d-none d-md-block" />
+                            Discounts
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 hr-vertical">
+                      <div
+                        class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between"
+                      >
+                        <img
+                          src="./Assets/assets/images/tracking.png"
+                          width="100"
+                          alt=""
+                        />
+                        <div class="d-flex d-md-block d-xl-flex flex-center">
+                          <h2 class="mb-0 fw-bolder">
+                            Live
+                            <br class="d-none d-md-block" />
+                            Tracking
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 hr-vertical">
+                      <div
+                        class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between"
+                      >
+                        <img
+                          src="./Assets/assets/images/delivery.png"
+                          width="100"
+                          alt=""
+                        />
+                        <div class="d-flex d-md-block d-xl-flex flex-center">
+                          <h2 class="mb-0 fw-bolder">
+                            Quick
+                            <br class="d-none d-md-block" />
+                            Delivery
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-md-8 align-items-center justify-content-center">
+            <div class="col-lg-5 d-none d-lg-block">
+              <img
+                class="w-100"
+                src="./Assets/assets/images/mobile.png"
+                alt="Mobile"
+              />
+            </div>
+            <div class="col-lg-5 ps-3">
+              <h1 class="text-warning">Install the app</h1>
+              <p>
+                It's never been easier to order food. Look for the finest
+                discounts and you'll be lost in a world of delectable food.
+              </p>
+              <a href="https://www.apple.com/app-store/" target="_blank"
+                ><img
+                  src="./Assets/assets/images/app-store.svg"
+                  alt="app store"
+              /></a>
+              <a href="https://www.apple.com/app-store/">
+                <img src="./Assets/assets/images/google-play.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="card mb-5 shadow-lg justify-content-center">
+              <div class="row g-0">
+                <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-0 order-md-1">
+                  <img
+                    src="./Assets/assets/images/crispy-sandwiches.png"
+                    class="img-fluid rounded w-100 object-fit-cover h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-7 col-xl-5 col-xxl-4">
+                  <div class="card-body">
+                    <h3 class="card-title mt-xl-5 mb-4">
+                      Best deals Crispy Sandwiches
+                    </h3>
+                    <p class="card-text mb-4">
+                      Enjoy the large size of sandwiches. Complete your meal
+                      with the perfect slice of sandwiches.
+                    </p>
+                    <div class="d-grid mt-5">
+                      <a class="btn btn-lg mt-xl-2 btn-danger" href="#"
+                        >Proceed to Order ></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-5 shadow-lg justify-content-center">
+              <div class="row g-0">
+                <div class="col-md-5 col-xl-7 col-xxl-8 g-0">
+                  <img
+                    src="./Assets/assets/images/fried-chicken.png"
+                    class="img-fluid rounded w-100 object-fit-cover h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-7 col-xl-5 col-xxl-4">
+                  <div class="card-body">
+                    <h3 class="card-title mt-xl-5 mb-4">
+                      Celebrate parties with Fried Chicken
+                    </h3>
+                    <p class="card-text">
+                      Get the best fried chicken smeared with a lip smacking
+                      lemon chili flavor. Check out best deals for fried
+                      chicken.
+                    </p>
+                    <div class="d-grid mt-5">
+                      <a class="btn btn-lg mt-xl-2 btn-danger" href="#"
+                        >Proceed to Order ></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3 shadow-lg justify-content-center">
+              <div class="row g-0">
+                <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-0 order-md-1">
+                  <img
+                    src="./Assets/assets/images/pizza.png"
+                    class="img-fluid rounded w-100 object-fit-cover h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-7 col-xl-5 col-xxl-4">
+                  <div class="card-body">
+                    <h3 class="card-title mt-xl-5 mb-4">
+                      Wanna eat hot & spicy Pizza?
+                    </h3>
+                    <p class="card-text">
+                      Pair up with a friend and enjoy the hot and crispy pizza
+                      pops. Try it with the best deals.
+                    </p>
+                    <div class="d-grid mt-5">
+                      <a class="btn btn-lg mt-xl-2 btn-danger" href="#"
+                        >Proceed to Order ></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-0">
+      <div class="bg-holder2 w-100 h-100">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-9 py-5 text-center">
+              <h1 class="fw-bold mb-4 text-white">
+                Are you ready to order <br />
+                with the best deals?
+              </h1>
+              <a href="#" class="btn btn-0 text-white">Proceed to Order ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row justify-content-lg-between">
+            <h5 class="text-white lh-lg">OUR TOP CITIES</h5>
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">San Francisco</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Miami </a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">San Diego</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">East Bay</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Long Beach</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Los Angeles </a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Washington DC</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Seattle</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Portland</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Nashville</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">New York City</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Orange County</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"> Atlanta</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Charlotte</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Denver</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Chicago</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Phoenix</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Las Vegas</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Sacramento</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Oklahoma City</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Columbus</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">New Mexico</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Albuquerque</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Sacramento</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">New Orleans</a>
+                </li>
+              </ul>
+            </div>
+
+            <hr class="w-90 text-white" />
+
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <h5 class="text-white">COMPANY</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">About Us</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Team</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Careers</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">blog</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <h5 class="text-white">CONTACT</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Help & Support Ride with us</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Partner with us</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Ride with us</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-auto mb-3">
+              <h5 class="text-white">LEGAL</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Terms & Conditions
+                  </a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Refund & Cancellation</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Cookie Policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-5 mb-3">
+              <h6 class="text-white text-uppercase">Follow Us</h6>
+              <ul class="list-unstyled d-flex">
+                <li class="mt-2">
+                  <a class="link-body text-white-50 fs-3" href="#"
+                    ><i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="ms-3 mt-2">
+                  <a class="link-body text-white-50 fs-3" href="#"
+                    ><i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="ms-3 mt-2">
+                  <a class="link-body text-white-50 fs-3" href="#"
+                    ><i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+              <form>
+                <p class="text-white">
+                  Receive exclusive offers and discounts in your mailbox
+                </p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden"
+                    >Email address</label
+                  >
+                  <input
+                    id="newsletter1"
+                    type="text"
+                    class="form-control clr"
+                    placeholder="Email address"
+                  />
+                  <button class="btn btn-danger" type="button">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+          >
+            <p class="text-white">© 2024 Company, Inc. All rights reserved.</p>
+
+            <p class="text-white">
+              Made With <i class="fa-solid fa-heart text-warning"></i> By
+              <a
+                class="anus"
+                target="_blank"
+                href="https://www.linkedin.com/in/anus-shafiq/
+              "
+                >Anus Shafiq</a
+              >
+            </p>
+          </div>
+        </footer>
+      </div>
+    </footer>
+
+    <footer class=""></footer>
     <script src="bootstrap.css"></script>
     <script src="pooper.js"></script>
     <script src="bundle.js"></script>
